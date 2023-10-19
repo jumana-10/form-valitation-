@@ -121,10 +121,6 @@ h3{
     background-color:  rgb(207, 144, 171);;
 }
 
-#todoList button:hover{
-
-}
-
 .account{
     margin: 20px;
     text-align: center;
@@ -135,10 +131,13 @@ h3{
      padding: 5px; 
    }
    #form{
-    width: 300px;
+    width: 80%;
    }
    #loginform{
-    width: 300px;
+    width: 80%;
+   }
+   #todoList{
+    width: 80%;
    }
 
 }
