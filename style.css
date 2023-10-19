@@ -132,9 +132,10 @@ h3{
 
 @media screen and (max-width: 800px){
    .container{
-     padding: 5px;
-     
+     padding: 5px; 
    }
-
+   #form{
+    width: 200px;
+   }
 
 }
