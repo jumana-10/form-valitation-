@@ -135,7 +135,10 @@ h3{
      padding: 5px; 
    }
    #form{
-    width: 200px;
+    width: 300px;
+   }
+   #loginform{
+    width: 300px;
    }
 
 }
