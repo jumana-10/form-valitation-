@@ -87,14 +87,6 @@ button:hover{
 
 }
 
-.input-group.success input{
-    border-color: #0cc477;
-}
-
-.input-group.error input{
-    border-color:rgb(206, 67, 67);
-}
-
 h3{
     text-align: center;
     font-size: 30px;
@@ -134,10 +126,26 @@ h3{
     width: 80%;
    }
    #loginform{
-    width: 80%;
+    width: 90%;
    }
    #todoList{
     width: 80%;
    }
+
+   }
+
+@media screen and (max-width:400px){
+    #newTodo{
+        width: 80%;
+    }
+    #todoList button{
+        width: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        
+    }
+}
 
 }
